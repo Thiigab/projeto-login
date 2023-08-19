@@ -30,18 +30,59 @@ h1 {
 }
 
 input {
-    border-radius: 6px;
     height: 28px;
-    border: none;
-    background-color: #76c7c4;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+}
+
+main {
+    padding-bottom: 10px;
+}
+
+div > p {
+    padding-left: 10px;
+    font-size: 0.9em;
 }
 
 
-#mail {
-    padding: 5px;
-    margin: auto;
-    background-color: #5f2c82;
-    width: 228px;
-    height: 26px;
-    border-radius: 10px;
+form {
+    padding-left: 10px;
+}
+
+#boto {
+    text-align: center;
+}
+
+
+#entrar {
+    background-color: #49a09d;
+    width: 200px;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    height: 38px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#entrar:hover {
+    background-color: #2d615f;
+    cursor: pointer;
+}
+
+#esqueci {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 100;
+    height: 38px;
+    border-radius: 6px;
+    border: 1px solid #49a09d;
+    background-color: white;
+    color: #2d615f;
+}
+
+#esqueci:hover {
+    background-color: #5fd1cd;
 }
